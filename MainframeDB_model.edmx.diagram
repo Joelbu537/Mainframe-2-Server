@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5813f22d43f644208d462553a5376484" Name="Diagram1">
+        <EntityTypeShape EntityType="MainframeModel.Accounts" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainframeModel.Transactions" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MainframeModel.Users" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="MainframeModel.fk_receiver_id" ManuallyRouted="false" />
+        <AssociationConnector Association="MainframeModel.fk_sender_id" ManuallyRouted="false" />
+        <AssociationConnector Association="MainframeModel.fk_userid" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MainframeModel.Logins" Width="1.5" PointX="3" PointY="4.25" />
+        <AssociationConnector Association="MainframeModel.fk_owner_id" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
